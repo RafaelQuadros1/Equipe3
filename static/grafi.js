@@ -60,21 +60,21 @@ var data1 = {
 
   var ctx1 = document.getElementById("chart1").getContext("2d");
   new Chart(ctx1, {
-    type: "doughnut",
+    type: "bar",
     data: data1,
     options: options,
   });
 
   var ctx2 = document.getElementById("chart2").getContext("2d");
   new Chart(ctx2, {
-    type: "doughnut",
+    type: "bar",
     data: data2,
     options: options,
   });
 
   var ctx3 = document.getElementById("chart3").getContext("2d");
   new Chart(ctx3, {
-    type: "doughnut",
+    type: "bar",
     data: data3,
     options: options,
   });
